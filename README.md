@@ -9,10 +9,10 @@ This project focuses on developing a deep learning-based MLOps system for object
 ## Contents of the Repository
 This repository contains the key components of the project, including the Jupyter Notebook used for model training and a folder containing the Flask web application code.
 
-### 1. **Jupyter Notebook (`YOLOv5_training.ipynb`)**
+### 1. **Jupyter Notebook (`Dog_Breed_Identification_with_YOLO.ipynb`)**
    - The notebook documents the entire process of training the YOLOv5 object detection model using transfer learning on a custom dataset. It includes steps for data preprocessing, training, evaluation, and saving the trained model.
    
-### 2. **Flask Application (`/app`)**
+### 2. **Flask Application (`/Myproject`)**
    - This folder contains the code for the web application built using Flask. The application allows users to upload an image, and the model will predict and display the breed of the dog in the image.
    
    The folder structure is as follows:
