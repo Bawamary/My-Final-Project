@@ -33,7 +33,7 @@ To run the project locally, follow these steps:
 cd yolov5
 pip install -r requirements.txt
 ```
-- Replace the directory of `yolo5.pt` in `app.py`
+- Replace the directory of `yolov5.pt` in `app.py`
 - Run the `app.py` to launch the deployment server
 ```
 python app.py
