@@ -25,18 +25,20 @@ This repository contains the key components of the project, including the Jupyte
 
 ## How to Run the Project
 To run the project locally, follow these steps:
-### 1. Open the Myproject folder on vscode or other IDE
-### 2. Clone the YOLOv5 pre-trained model repository
+- Open the Myproject folder on vscode or other IDE
+- Replace the directory of `mymodel.pt` in `app.py`
+- Clone the `YOLOv5` pre-trained model repository
 ```
 !git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pip install -r requirements.txt
 ```
-### 3. Run the app.py to launch the deployment server
+- Replace the directory of `yolo5.pt` in `app.py`
+- Run the `app.py` to launch the deployment server
 ```
 python app.py
 ```
 
 ### To clone this repository:
 ```bash
-git clone https://github.com/your-username/deep-learning-object-detection.git
+git clone https://github.com/Bawamary/My-Final-Project.git
